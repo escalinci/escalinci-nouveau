@@ -29,6 +29,6 @@ action "Filters for GitHub Actions" {
 action "Deploy" {
   uses = "netlify/actions/cli@master"
   needs = ["Filters for GitHub Actions"]
-  args = "netlify deploy --dir=public --prod"
+  args = "deploy --dir=public --prod"
   secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
 }
