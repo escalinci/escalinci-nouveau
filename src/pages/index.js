@@ -6,7 +6,7 @@ export default () => (
   <Layout>
     <br />
 
-    <header>Videographer and Editor - Based in Hamburg/UK</header>
+    <header>Videographer and Editor - Based in Hamburg, Germany</header>
 
     <figure className="video-container video-container__youtube">
       <iframe
