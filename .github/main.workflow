@@ -8,8 +8,15 @@ action "Install Dependencies" {
   args = "install --frozen-lockfile"
 }
 
-action "Build" {
+action "Lint" {
   uses = "./action-yarn"
   needs = ["Install Dependencies"]
+  args = "prettier '**/*.js' --check --ignore-path .gitignore"
+}
+
+action "Build" {
+  uses = "./action-yarn"
+  needs = ["Lint"]
   args = "build"
 }
+
