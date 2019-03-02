@@ -1,6 +1,6 @@
 workflow "Test and build on push" {
   on = "push"
-  resolves = ["Build"]
+  resolves = ["Deploy"]
 }
 
 action "Install Dependencies" {
@@ -20,3 +20,15 @@ action "Build" {
   args = "build"
 }
 
+action "Filters for GitHub Actions" {
+  uses = "actions/bin/filter@master"
+  needs = ["Build"]
+  args = "branch master"
+}
+
+action "Deploy" {
+  uses = "netlify/actions/cli@master"
+  needs = ["Filters for GitHub Actions"]
+  args = "netlify deploy --dir=public --prod"
+  secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
+}
