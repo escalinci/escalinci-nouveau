@@ -20,9 +20,15 @@ action "Lint JS" {
   args = "lint-js"
 }
 
+action "Lint Styles" {
+  uses = "./action-yarn"
+  needs = ["Install Dependencies"]
+  args = "lint-styles"
+}
+
 action "Build" {
   uses = "./action-yarn"
-  needs = ["Check Prettiness", "Lint JS"]
+  needs = ["Check Prettiness", "Lint JS", "Lint Styles"]
   args = "build"
 }
 
