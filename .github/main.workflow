@@ -1,6 +1,9 @@
-workflow "Test and build on push" {
+workflow "Test, Build and Deploy on Push" {
   on = "push"
-  resolves = ["Deploy"]
+  resolves = [
+    "Deploy to Production",
+    "Deploy to Staging",
+  ]
 }
 
 action "Install Dependencies" {
@@ -32,15 +35,28 @@ action "Build" {
   args = "build"
 }
 
-action "Filters for GitHub Actions" {
+action "Run on Master" {
   uses = "actions/bin/filter@master"
   needs = ["Build"]
   args = "branch master"
 }
 
-action "Deploy" {
+action "Deploy to Production" {
   uses = "netlify/actions/cli@master"
-  needs = ["Filters for GitHub Actions"]
+  needs = ["Run on Master"]
   args = "deploy --dir=public --prod"
+  secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
+}
+
+action "Run on PR" {
+  uses = "actions/bin/filter@master"
+  needs = ["Build"]
+  args = "not branch master"
+}
+
+action "Deploy to Staging" {
+  uses = "netlify/actions/cli@master"
+  needs = ["Run on PR"]
+  args = "deploy --dir=public"
   secrets = ["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]
 }
