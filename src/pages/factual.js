@@ -1,15 +1,19 @@
 import React from 'react';
 
-import Layout from 'components/Layout';
+import { Layout } from 'components/Layout';
+import { Article } from 'components/Article';
+import { Header } from 'components/Header';
 import factual from 'images/factual.jpg';
 
 export default () => (
   <Layout>
-    <header>Production Runner</header>
-    <article>
-      <p className="figureRight">
-        <img src={factual} alt="programmes" />
-      </p>
+    <Header>Production Runner</Header>
+    <Article>
+      <img
+        css="float: right; padding-left: 1em; padding-bottom: 1em;"
+        src={factual}
+        alt="programmes"
+      />
       <p>
         I've worked as a Runner in many capacities; ringing up audiences and
         helping out with research in the office, looking after contributors on
@@ -42,6 +46,6 @@ export default () => (
         If you want to get in touch, contacts are at the bottom left of the
         page.
       </p>{' '}
-    </article>
+    </Article>
   </Layout>
 );

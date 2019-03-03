@@ -1,12 +1,46 @@
 import React from 'react';
+import styled, { createGlobalStyle } from 'styled-components';
 
-import Header from 'components/Header';
+import { min } from 'breakpoints';
+import { Navigation, NAVIGATION_WIDTH } from 'components/Navigation';
 
-import 'styles/style.css';
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
 
-export default ({ children }) => (
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    background-color:#222;
+    font-family: Roboto, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+`;
+
+const Content = styled.div`
+  padding: 0 30px;
+
+  ${min('tablet')} {
+    min-height: 100vh;
+    margin-left: ${NAVIGATION_WIDTH};
+  }
+`;
+
+export const Layout = ({ children }) => (
   <>
-    <Header />
-    <div id="contentWrap">{children}</div>
+    <GlobalStyle />
+    <Navigation />
+    <Content>{children}</Content>
   </>
 );
