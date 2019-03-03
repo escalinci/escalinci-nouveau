@@ -20,9 +20,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Space for Cycling"
         src="https://www.youtube.com/embed/7wX_RiE9qZI?&"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 
@@ -35,9 +36,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Means of Feedback"
         src="https://www.youtube.com/embed/l_3KXohyAI4"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 
@@ -51,9 +53,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Glycaemic Index"
         src="https://www.youtube.com/embed/x8scXmMPI3U?&"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 
@@ -66,9 +69,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="ACS Rehearsal"
         src="https://www.youtube.com/embed/AR8x4w6pivI?&"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 

@@ -13,9 +13,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Showreel"
         src="https://www.youtube.com/embed/6KBAcoj1Jlw"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 

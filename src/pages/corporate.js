@@ -22,9 +22,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="UHMBT Staff"
         src="https://www.youtube.com/embed/_9XMSOYoXi4"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 

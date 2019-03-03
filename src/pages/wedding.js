@@ -11,9 +11,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Wedding Day"
         src="https://www.youtube.com/embed/hnhk6kEtHOg?"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 

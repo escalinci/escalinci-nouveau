@@ -8,8 +8,9 @@ export default () => (
   <Layout>
     <VideoWrapper>
       <iframe
+        title="Building Brute"
         src="https://player.vimeo.com/video/66465915"
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
       />
     </VideoWrapper>
@@ -30,9 +31,10 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Retirement Age"
         src="https://www.youtube.com/embed/OVdLNIMY5B0?&"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       />
     </VideoWrapper>
 

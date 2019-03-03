@@ -19,8 +19,9 @@ export default () => (
 
     <VideoWrapper>
       <iframe
+        title="Brute Trailer"
         src="https://player.vimeo.com/video/58795237"
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
       />
     </VideoWrapper>
