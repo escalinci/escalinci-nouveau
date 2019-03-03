@@ -1,18 +1,20 @@
 import React from 'react';
 
-import Layout from 'components/Layout';
+import { Layout } from 'components/Layout';
+import { Article } from 'components/Article';
+import { VideoWrapper } from 'components/VideoWrapper';
 
 export default () => (
   <Layout>
-    <figure className="video-container">
+    <VideoWrapper>
       <iframe
         src="https://player.vimeo.com/video/66465915"
         frameborder="0"
         allowFullScreen
       />
-    </figure>
+    </VideoWrapper>
 
-    <article>
+    <Article>
       Documentary film-making is an ideal way to test and expand your limits as
       a film-maker. The 15-minute documentary above was filmed in a day, with a
       single camera, and, as well as learning a lot about contemporary dance,
@@ -24,21 +26,21 @@ export default () => (
       big day' storyline, and I try to delve into Tom's methodology, and use box
       pops with the audience to try and get across the feel and impact of the
       piece.
-    </article>
+    </Article>
 
-    <figure className="video-container">
+    <VideoWrapper>
       <iframe
         src="https://www.youtube.com/embed/OVdLNIMY5B0?&"
         frameborder="0"
         allowfullscreen
       />
-    </figure>
+    </VideoWrapper>
 
-    <article>
+    <Article>
       Made for the (now unfortunately defunct) Channel M, this is an example of
       me trying to articulate a story through the images shown. Whilst he talks
       about retirement, hopefully the images of him at work accentuate the
       viewer's understanding.
-    </article>
+    </Article>
   </Layout>
 );

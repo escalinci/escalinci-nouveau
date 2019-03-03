@@ -1,12 +1,15 @@
 import React from 'react';
 
-import Layout from 'components/Layout';
+import { Layout } from 'components/Layout';
+import { Article } from 'components/Article';
+import { Header } from 'components/Header';
+import { VideoWrapper } from 'components/VideoWrapper';
 
 export default () => (
   <Layout>
-    <header>Corporate Video</header>
+    <Header>Corporate Video</Header>
 
-    <article>
+    <Article>
       If you need more effective communication across your organisation, or have
       parts of your workforce who don't feel listened to or valued, video can be
       a valuable tool to address those problems. Explaining new ideas in an
@@ -15,22 +18,22 @@ export default () => (
       personally. Where I can give a hand is making sure those on screen,
       wherever they come from in the organisation, are coming across in the best
       way, and to be succinct in editing while adding a little extra!
-    </article>
+    </Article>
 
-    <figure className="video-container">
+    <VideoWrapper>
       <iframe
         src="https://www.youtube.com/embed/_9XMSOYoXi4"
         frameborder="0"
         allowfullscreen
       />
-    </figure>
+    </VideoWrapper>
 
-    <article>
+    <Article>
       Morecambe NHS Trust has thousands of employees across several sites, many
       in rural areas. This video, to kickstart an engagement project which has
       since shepherded dozens of improvement projects, puts people in touch with
       the sponsors of the project across the Trust's different hospitals, both
       demonstrating their enthusiasm and the connection across the whole Trust.
-    </article>
+    </Article>
   </Layout>
 );

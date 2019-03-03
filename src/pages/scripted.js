@@ -1,15 +1,19 @@
 import React from 'react';
 
-import Layout from 'components/Layout';
+import { Layout } from 'components/Layout';
+import { Article } from 'components/Article';
+import { Header } from 'components/Header';
 import camera from 'images/camera.jpg';
 
 export default () => (
   <Layout>
-    <header>Camera Trainee - Drama/Comedy</header>
-    <article>
-      <p className="figureRight">
-        <img src={camera} alt="programmes" />
-      </p>
+    <Header>Camera Trainee - Drama/Comedy</Header>
+    <Article>
+      <img
+        css="float: right; padding-left: 1em; padding-bottom: 1em;"
+        src={camera}
+        alt="programmes"
+      />
       <p>
         I have worked on location as a camera trainee, and am hopeful to move up
         to working as a clapper/loader.
@@ -31,6 +35,6 @@ export default () => (
         I'm based in the North West and London, if you'd like to test me out, My
         contacts are at the bottom left of the page.
       </p>
-    </article>
+    </Article>
   </Layout>
 );

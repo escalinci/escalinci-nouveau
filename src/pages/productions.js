@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Layout from 'components/Layout';
+import { Layout } from 'components/Layout';
+import { Article } from 'components/Article';
+import { Header } from 'components/Header';
 
 export default () => (
   <Layout>
-    <header>Self-Shooting/Editing</header>
+    <Header>Self-Shooting/Editing</Header>
 
-    <article>
+    <Article>
       I've worked with professional cameramen who've had years of experience in
       the industry, and seen editors reworking footage with astonishing speed
       and creativity. I am not them, but experience feeds into results more
@@ -26,6 +28,6 @@ export default () => (
       necessarily just by car. Please have a look through some of the examples
       on the site, and if you're looking to have anything done, please get in
       touch.
-    </article>
+    </Article>
   </Layout>
 );
