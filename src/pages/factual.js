@@ -15,7 +15,7 @@ export default () => (
         alt="programmes"
       />
       <p>
-        I've worked as a Runner in many capacities; ringing up audiences and
+        I&#39;ve worked as a Runner in many capacities; ringing up audiences and
         helping out with research in the office, looking after contributors on
         locations, or assisting the crew by booming or managing tapes.
       </p>
@@ -29,9 +29,9 @@ export default () => (
       </p>
       <p>
         I have experience of live tv, mainly from working in shopping
-        television, and on Mentorn's the big questions, a studio debate show.
-        However it is often before going live, or shooting to edit later, where
-        the runner is relied upon more.
+        television, and on Mentorn&#39;s the big questions, a studio debate
+        show. However it is often before going live, or shooting to edit later,
+        where the runner is relied upon more.
       </p>
       <p>
         I’m based in the North West, but it’s also easy for me to work in
@@ -39,8 +39,8 @@ export default () => (
         business use.
       </p>
       <p>
-        I can shoot great gv's and extra actuality, as well as zipping around
-        doing whatever's needed.
+        I can shoot great gvs and extra actuality, as well as zipping around
+        doing whatever&#39;s needed.
       </p>
       <p>
         If you want to get in touch, contacts are at the bottom left of the

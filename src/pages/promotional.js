@@ -13,15 +13,15 @@ export default () => (
       Smaller, cheaper cameras have enabled any business or organisation to get
       themselves on video. But often, to have the best impact, or to portray the
       organisation properly, the same skills that are used in broadcast
-      television have to come into play. Below are some examples where I've
+      television have to come into play. Below are some examples where I&#39;ve
       given organisations something they can use to easily communicate what
-      they're about to newcomers.
+      they&#39;re about to newcomers.
     </Article>
 
     <VideoWrapper>
       <iframe
         title="Space for Cycling"
-        src="https://www.youtube.com/embed/7wX_RiE9qZI?&"
+        src="https://www.youtube.com/embed/7wX_RiE9qZI"
         frameBorder="0"
         allowFullScreen
       />
@@ -54,7 +54,7 @@ export default () => (
     <VideoWrapper>
       <iframe
         title="Glycaemic Index"
-        src="https://www.youtube.com/embed/x8scXmMPI3U?&"
+        src="https://www.youtube.com/embed/x8scXmMPI3U"
         frameBorder="0"
         allowFullScreen
       />
@@ -70,7 +70,7 @@ export default () => (
     <VideoWrapper>
       <iframe
         title="ACS Rehearsal"
-        src="https://www.youtube.com/embed/AR8x4w6pivI?&"
+        src="https://www.youtube.com/embed/AR8x4w6pivI"
         frameBorder="0"
         allowFullScreen
       />
