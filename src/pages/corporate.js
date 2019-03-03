@@ -11,9 +11,9 @@ export default () => (
 
     <Article>
       If you need more effective communication across your organisation, or have
-      parts of your workforce who don't feel listened to or valued, video can be
-      a valuable tool to address those problems. Explaining new ideas in an
-      engaging way and putting a face to them through a recording is the next
+      parts of your workforce who don&#39;t feel listened to or valued, video
+      can be a valuable tool to address those problems. Explaining new ideas in
+      an engaging way and putting a face to them through a recording is the next
       best thing to sitting down with every employee and speaking to them
       personally. Where I can give a hand is making sure those on screen,
       wherever they come from in the organisation, are coming across in the best
@@ -33,8 +33,9 @@ export default () => (
       Morecambe NHS Trust has thousands of employees across several sites, many
       in rural areas. This video, to kickstart an engagement project which has
       since shepherded dozens of improvement projects, puts people in touch with
-      the sponsors of the project across the Trust's different hospitals, both
-      demonstrating their enthusiasm and the connection across the whole Trust.
+      the sponsors of the project across the Trust&#39;s different hospitals,
+      both demonstrating their enthusiasm and the connection across the whole
+      Trust.
     </Article>
   </Layout>
 );

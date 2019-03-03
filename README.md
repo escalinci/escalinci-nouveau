@@ -27,6 +27,10 @@ yarn start
 
 Then open up a browser tab at <http://localhost:8000>
 
+### Tooling
+
+Use whichever editor you like, but [VSCode](https://code.visualstudio.com/) is recommended. You should set up your editor to use the following tools - [eslint](https://eslint.org/), [stylelint](https://stylelint.io/) and [prettier](https://prettier.io/).
+
 ## Production Builds
 
 To test a production build, run the following:

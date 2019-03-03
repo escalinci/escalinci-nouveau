@@ -10,11 +10,11 @@ export default () => (
     <Header>Live Performance - Music/Dance/Theatre</Header>
 
     <Article>
-      We've all seen terrible-looking footage of gigs or plays - this is because
-      live performance throws up unique challenges. With cameras and lenses that
-      are capable in low-light, and setups that work in small venues, I am
-      ideally placed to capture your performance without taking anything away
-      from it.
+      We&#39;ve all seen terrible-looking footage of gigs or plays - this is
+      because live performance throws up unique challenges. With cameras and
+      lenses that are capable in low-light, and setups that work in small
+      venues, I am ideally placed to capture your performance without taking
+      anything away from it.
     </Article>
 
     <VideoWrapper>
