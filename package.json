@@ -29,7 +29,9 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "check-prettiness": "prettier '**/*.js' --check --ignore-path .gitignore",
+    "lint-js": "yarn eslint ."
   },
   "eslintIgnore": [
     "public",
