@@ -10,7 +10,7 @@ html {
 
 body {
 	margin: 0;
-	background-color:  #222;;
+	background-color:#222;
 }
 
 /* page elements */
@@ -23,20 +23,6 @@ a {
 
 a img {
 	border: 0;
-}
-
-.bigRule {
-	margin: 25px 10px;
-	border: 0;
-	height: 1px;
-	background: #7F7F7F;
-}
-
-.smallRule {
-	margin: 10px 0px;
-	border: 0;
-	height: 1px;
-	background: #7F7F7F;
 }
 
 .figureLeft {
@@ -61,9 +47,7 @@ a img {
   height: 0;
   overflow: hidden;
 }
-.video-container.video-container__youtube {
-  padding-top: 30px;
-}
+
 .video-container iframe {
   position: absolute;
   top: 0;
@@ -72,44 +56,10 @@ a img {
   height: 100%;
 }
 
-
-/* font styles */
-
-.textbutton {
-	font-weight: 700;
-	font-size: 30px;
-	padding: 0 16px;
-}
-
-.textLink {
-	font-family: Roboto, sans-serif;
-	font-weight: 700;
-	padding: 0 0.2em;
-}
-
-.text_vsmall {
-	font-family: Roboto, sans-serif;
-	font-size: 11px;
-	line-height: 1.5em;
-}
-
-.text_vvsmall {
-	font-family: Roboto, sans-serif;
-	font-size: 9px;
-	line-height: 1.5em;
-}
-
 /* div styles */
 
 #contentWrap {
 	padding: 0 30px;
-}
-
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
 }
 
 /* sidebar */
@@ -170,13 +120,6 @@ article {
 	font-weight: 300;
 	font-size: 13px;
 	line-height: 1.6em;
-	color: black;
-}
-
-#contactTitle {
-	font-family: Roboto, sans-serif;
-	font-size: 12px;
-	line-height: 1.5em;
 	color: black;
 }
 
@@ -255,11 +198,6 @@ article {
 	header {
 		font-size: 42px;
 	}
-	
-	subheader {
-		max-width: 800px;
-		font-size: 19px;
-	}	
 
 	article {
 		max-width: 800px;
@@ -271,11 +209,6 @@ article {
 	header {
 		font-size: 36px;
 	}
-	
-	subheader {
-		max-width: 800px;
-		font-size: 17px;
-	}	
 
 	article {
 		max-width: 600px;

@@ -8,7 +8,7 @@ export default () => (
 
     <header>Videographer and Editor - Based in Hamburg/UK</header>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/6KBAcoj1Jlw"
         frameborder="0"

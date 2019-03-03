@@ -6,7 +6,7 @@ export default () => (
   <Layout>
     <header>Wedding Videography</header>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/hnhk6kEtHOg?"
         frameborder="0"

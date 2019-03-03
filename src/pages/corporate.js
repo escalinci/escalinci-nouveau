@@ -17,7 +17,7 @@ export default () => (
       way, and to be succinct in editing while adding a little extra!
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/_9XMSOYoXi4"
         frameborder="0"

@@ -26,7 +26,7 @@ export default () => (
       piece.
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/OVdLNIMY5B0?&"
         frameborder="0"

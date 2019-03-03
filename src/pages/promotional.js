@@ -15,7 +15,7 @@ export default () => (
       they're about to newcomers.
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/7wX_RiE9qZI?&"
         frameborder="0"
@@ -30,7 +30,7 @@ export default () => (
       concise way and bringing through the fun and excitement of the gathering.
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/l_3KXohyAI4"
         frameborder="0"
@@ -46,7 +46,7 @@ export default () => (
       opening night.
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/x8scXmMPI3U?&"
         frameborder="0"
@@ -61,7 +61,7 @@ export default () => (
       to work in the occasional shot that showed off the food.
     </article>
 
-    <figure className="video-container video-container__youtube">
+    <figure className="video-container">
       <iframe
         src="https://www.youtube.com/embed/AR8x4w6pivI?&"
         frameborder="0"
