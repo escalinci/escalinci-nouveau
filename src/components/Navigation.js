@@ -7,6 +7,7 @@ import emailIcon from 'images/shareicons/email_32.png';
 import gPlusIcon from 'images/shareicons/google_plus_32.png';
 import linkedInIcon from 'images/shareicons/linkedin_32.png';
 import twitterIcon from 'images/shareicons/twitter_32.png';
+import flag from 'images/flags.png';
 
 export const NAVIGATION_WIDTH = '160px';
 
@@ -101,6 +102,9 @@ export const Navigation = () => (
       <SmallLink to="/documentary">Documentary</SmallLink>
       <SmallLink to="/liveperformance">Live Performance</SmallLink>
     </NavigationLinks>
+    
+    <a href="https://plus.google.com/u/0/101280860956527179760/">
+      <img src={flags} alt="English/Deutsch" />
 
     <Contact>
       <a href="mailto:ethan.md@gmail.com">
