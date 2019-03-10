@@ -101,10 +101,8 @@ export const Navigation = () => (
       <SmallLink to="/promotional">Promotional</SmallLink>
       <SmallLink to="/documentary">Documentary</SmallLink>
       <SmallLink to="/liveperformance">Live Performance</SmallLink>
-    </NavigationLinks>
-    
-    <a href="https://plus.google.com/u/0/101280860956527179760/">
       <img src={flags} alt="English/Deutsch" />
+    </NavigationLinks>
 
     <Contact>
       <a href="mailto:ethan.md@gmail.com">
