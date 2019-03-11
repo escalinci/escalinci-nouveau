@@ -101,7 +101,7 @@ export const Navigation = () => (
       <SmallLink to="de/hochzeit">Hochzeit</SmallLink>
       <SmallLink to="de/imagefilme">Imagefilme</SmallLink>
       <SmallLink to="de/werbung">Werbung</SmallLink>
-      <SmallLink to="de/documentarfilme">Documentarfilme</SmallLink>
+      <SmallLink to="de/documentar">Documentarfilme</SmallLink>
       <SmallLink to="de/liveperformance">Live-Performance</SmallLink>
     </NavigationLinks>
 
