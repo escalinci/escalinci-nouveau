@@ -7,7 +7,7 @@ import emailIcon from 'images/shareicons/email_32.png';
 import gPlusIcon from 'images/shareicons/google_plus_32.png';
 import linkedInIcon from 'images/shareicons/linkedin_32.png';
 import twitterIcon from 'images/shareicons/twitter_32.png';
-import flag from 'images/flags.png';
+import flags from 'images/flags.png';
 
 export const NAVIGATION_WIDTH = '160px';
 
