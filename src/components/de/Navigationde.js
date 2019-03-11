@@ -87,8 +87,9 @@ export const Navigation = () => (
   <NavigationWrapper>
     <Logo to="/de/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>
+      <img src={flags} to="/" ALIGN="right"></img> 
      </Logo>
-     <img src={flags} to="/" ALIGN="right"></img>     
+         
 
     <NavigationLinks>
       <MainLink to="de/sachlich">sachlich</MainLink>
@@ -100,7 +101,7 @@ export const Navigation = () => (
       <SmallLink to="de/hochzeit">Hochzeit</SmallLink>
       <SmallLink to="de/imagefilme">Imagefilme</SmallLink>
       <SmallLink to="de/werbung">Werbung</SmallLink>
-      <SmallLink to="de/Documentarfilme">Documentary</SmallLink>
+      <SmallLink to="de/Documentarfilme">Documentarfilme</SmallLink>
       <SmallLink to="de/liveperformance">Live-Performance</SmallLink>
     </NavigationLinks>
 

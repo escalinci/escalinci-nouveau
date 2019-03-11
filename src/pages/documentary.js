@@ -6,6 +6,7 @@ import { VideoWrapper } from 'components/VideoWrapper';
 
 export default () => (
   <Layout>
+  <Header>Documentary</Header>
     <VideoWrapper>
       <iframe
         title="Building Brute"
