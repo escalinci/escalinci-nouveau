@@ -85,22 +85,22 @@ const Contact = styled.div`
 
 export const Navigation = () => (
   <NavigationWrapper>
-    <Logo to="/">
-      ETHAN <span css="letter-spacing: 1px;">DUFFY</span>
+    <Logo>
+      <a href="/de">ETHAN <span css="letter-spacing: 1px;">DUFFY</span></a>
       <a href="/"><img src={flags} ALIGN="right"</a>     </Logo>
 
     <NavigationLinks>
-      <MainLink to="/factual">factual</MainLink>
-      <MainLink to="/scripted">scripted</MainLink>
-      <MainLink to="/productions">productions</MainLink>
+      <MainLink to="de/sachlich">sachlich</MainLink>
+      <MainLink to="de/scripted">scripted</MainLink>
+      <MainLink to="de/produktionen">produktionen</MainLink>
     </NavigationLinks>
 
     <NavigationLinks>
-      <SmallLink to="/wedding">Wedding</SmallLink>
-      <SmallLink to="/corporate">Corporate</SmallLink>
-      <SmallLink to="/promotional">Promotional</SmallLink>
-      <SmallLink to="/documentary">Documentary</SmallLink>
-      <SmallLink to="/liveperformance">Live Performance</SmallLink>
+      <SmallLink to="de/hochzeit">Hochzeit</SmallLink>
+      <SmallLink to="de/imagefilme">Imagefilme</SmallLink>
+      <SmallLink to="de/werbung">Werbung</SmallLink>
+      <SmallLink to="de/Documentarfilme">Documentary</SmallLink>
+      <SmallLink to="de/liveperformance">Live-Performance</SmallLink>
     </NavigationLinks>
 
     <Contact>

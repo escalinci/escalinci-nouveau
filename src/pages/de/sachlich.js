@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Layout } from 'components/Layout';
+import { Layout } from 'components/de/Layoutde';
 import { Article } from 'components/Article';
 import { Header } from 'components/Header';
 import factual from 'images/factual.jpg';
