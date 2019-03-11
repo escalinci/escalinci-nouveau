@@ -85,9 +85,10 @@ const Contact = styled.div`
 
 export const Navigation = () => (
   <NavigationWrapper>
-    <Logo>
-      <a href="/de">ETHAN <span css="letter-spacing: 1px;">DUFFY</span></a>
-      <a href="/"><img src={flags} ALIGN="right"</a>     </Logo>
+    <Logo to="/de/">
+      ETHAN <span css="letter-spacing: 1px;">DUFFY</span>
+     </Logo>
+     <img src={flags} to="/" ALIGN="right"</a>     
 
     <NavigationLinks>
       <MainLink to="de/sachlich">sachlich</MainLink>
