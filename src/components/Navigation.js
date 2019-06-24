@@ -35,6 +35,15 @@ const Logo = styled(Link)`
   }
 `;
 
+const flags = styled(Link)`
+  padding: 10px 20px 5px 20px;
+  display: inline-block;
+
+  ${min('tablet')} {
+    padding: 20px 15px 0px 15px;
+  }
+`;
+
 const NavigationLinks = styled.div`
   text-align: right;
   padding: 0px 5px 5px 5px;
@@ -87,8 +96,8 @@ export const Navigation = () => (
   <NavigationWrapper>
     <Logo to ="/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	</Logo>
-      <a href="/de/"><img src={flags} ALIGN="right"></img></a>
-		<p></p>
+		<flags to "/de/">
+		<img src={flags} ALIGN="right"></img><flag
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
