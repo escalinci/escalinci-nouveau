@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
 import { min } from 'breakpoints';
-import { Navigation, NAVIGATION_WIDTH } from 'components/Navigation';
+import { Navigation, NAVIGATION_WIDTH } from 'components/de/Navigationde';
 import { Header } from 'components/Header';
 
 const GlobalStyle = createGlobalStyle`
