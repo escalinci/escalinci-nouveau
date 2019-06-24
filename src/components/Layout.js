@@ -3,7 +3,6 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 import { min } from 'breakpoints';
 import { Navigation, NAVIGATION_WIDTH } from 'components/Navigation';
-import { Header } from 'components/Header';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
