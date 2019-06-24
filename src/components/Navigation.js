@@ -88,7 +88,7 @@ export const Navigation = () => (
     <Logo to ="/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	</Logo>
       <a href="/de/"><img src={flags} ALIGN="right"></img></a>
-		<a></a>
+		<p></p>
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
