@@ -97,7 +97,7 @@ export const Navigation = () => (
     <Logo to="/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	
 </Logo>
-		<flagwrapper><a href="/de/"><img src={flags} ALIGN="right"></img></flagwrapper></a>
+		<flagwrapper><a href="/de/"><img src={flags} ALIGN="right"></img></a></flagwrapper>
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
