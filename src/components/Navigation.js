@@ -35,6 +35,15 @@ const Logo = styled(Link)`
   }
 `;
 
+const flagwrapper = styled(Link)`
+  padding: 10px 20px 5px 20px;
+  display: inline-block;
+
+  ${min('tablet')} {
+    padding: 20px 15px 0px 15px;
+  }
+`;
+
 const NavigationLinks = styled.div`
   text-align: right;
   padding: 0px 5px 5px 5px;
@@ -85,10 +94,10 @@ const Contact = styled.div`
 
 export const Navigation = () => (
   <NavigationWrapper>
-    <Logo><a href="/">
-      ETHAN <span css="letter-spacing: 1px;">DUFFY</span></a>	
-<a href="/de/"><img style="margin: 10px 5px 15px 20px;" src={flags} ALIGN="right"></img></a>
+    <Logo to="/">
+      ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	
 </Logo>
+		<flagwrapper to="/de/"><img src={flags} ALIGN="right"></img></flagwrapper>
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
