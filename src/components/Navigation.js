@@ -26,6 +26,7 @@ const NavigationWrapper = styled.div`
 
 const Logo = styled(Link)`
   font-weight: 100;
+  font-style: thin;
   font-size: 37px;
   padding: 10px 20px 5px 20px;
   display: inline-block;
