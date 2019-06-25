@@ -37,7 +37,6 @@ const Logo = styled(Link)`
 
 const flagwrapper = styled(Link)`
   padding: 10px 20px 5px 20px;
-  display: inline-block;
 
   ${min('tablet')} {
     padding: 20px 15px 0px 15px;
