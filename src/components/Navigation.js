@@ -95,7 +95,7 @@ export const Navigation = () => (
 		<flagwrapper>
 		<a href="/de/"><img src={flags} ALIGN="right"></img></a>
 		</flagwrapper>
-		<br>
+		<br></br>
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
