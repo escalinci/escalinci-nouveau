@@ -96,7 +96,7 @@ export const Navigation = () => (
     <Logo to="/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	
 </Logo>
-		<flagwrapper> <span padding: 20px 20px 5px 150px;>
+		<flagwrapper> <span padding:(20px 20px 5px 150px);>
 		<a href="/de/"><img src={flags} ALIGN="right"></img></a>
 		</span></flagwrapper>
     <NavigationLinks>
