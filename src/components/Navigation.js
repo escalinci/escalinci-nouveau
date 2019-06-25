@@ -39,7 +39,8 @@ const flagwrapper = styled(Link)`
   padding: 10px 20px 5px 20px;
 
   ${min('tablet')} {
-    padding: 20px 15px 0px 15px;
+    padding: 20px 15px 0px 15px; 
+        display:block;
   }
 `;
 
@@ -96,9 +97,9 @@ export const Navigation = () => (
     <Logo to="/">
       ETHAN <span css="letter-spacing: 1px;">DUFFY</span>	
 </Logo>
-		<flagwrapper> <span padding:(20px 20px 5px 150px);>
+		<flagwrapper>
 		<a href="/de/"><img src={flags} ALIGN="right"></img></a>
-		</span></flagwrapper>
+		</flagwrapper>
     <NavigationLinks>
       <MainLink to="/factual">factual</MainLink>
       <MainLink to="/scripted">scripted</MainLink>
